@@ -45,24 +45,6 @@
             </ul>
         </li>
         @endcan
-        @can('frontend_access')
-        <li class="c-sidebar-nav-dropdown {{ request()->is("admin/daftar-layanans*") ? "c-show" : "" }} {{ request()->is("admin/profiles*") ? "c-show" : "" }} {{ request()->is("admin/abouts*") ? "c-show" : "" }} {{ request()->is("admin/blogs*") ? "c-show" : "" }} {{ request()->is("admin/galleries*") ? "c-show" : "" }} {{ request()->is("admin/tims*") ? "c-show" : "" }} {{ request()->is("admin/sosial-media*") ? "c-show" : "" }} {{ request()->is("admin/footers*") ? "c-show" : "" }}">
-            <a class="c-sidebar-nav-dropdown-toggle" href="#">
-                <i class="fa-fw fas fa-globe c-sidebar-nav-icon"></i>
-                {{ trans('cruds.frontend.title') }}
-            </a>
-            @can('footer_access')
-            <ul class="c-sidebar-nav-dropdown-items">
-                <li class="c-sidebar-nav-item">
-                    <a href="{{ route("admin.footers.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/footers") || request()->is("admin/footers/*") ? "c-active" : "" }}">
-                        <i class="fa-fw fas fa-shoe-prints c-sidebar-nav-icon"></i>
-                        {{ trans('cruds.footer.title') }}
-                    </a>
-                </li>
-            </ul>
-            @endcan
-        </li>
-        @endcan
         @can('membership_access')
         <li class="c-sidebar-nav-dropdown {{ request()->is("admin/customer*") ? "c-show" : "" }}">
             <a class="c-sidebar-nav-dropdown-toggle" href="#">

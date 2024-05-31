@@ -26,15 +26,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('users/destroy', 'UsersController@massDestroy')->name('users.massDestroy');
     Route::resource('users', 'UsersController');
 
-    // Footer
-    Route::delete('footers/destroy', 'FooterController@massDestroy')->name('footers.massDestroy');
-    Route::post('footers/media', 'FooterController@storeMedia')->name('footers.storeMedia');
-    Route::post('footers/ckmedia', 'FooterController@storeCKEditorImages')->name('footers.storeCKEditorImages');
-    Route::resource('footers', 'FooterController');
-
-     //Customer
-     Route::delete('customers/destroy', 'CustomerController@massDestroy')->name('customers.massDestroy');
-     Route::resource('customers', 'CustomerController');
+    //Customer
+    Route::delete('customers/destroy', 'CustomerController@massDestroy')->name('customers.massDestroy');
+    Route::resource('customers', 'CustomerController');
  
 });
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'namespace' => 'Auth', 'middleware' => ['auth']], function () {

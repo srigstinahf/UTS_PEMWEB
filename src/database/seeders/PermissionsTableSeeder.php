@@ -76,56 +76,30 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 17,
-                'title' => 'frontend_access',
-            ],
-            
-            [
-                'id'    => 18,
-                'title' => 'footer_create',
-            ],
-            [
-                'id'    => 19,
-                'title' => 'footer_edit',
-            ],
-            [
-                'id'    => 20,
-                'title' => 'footer_show',
-            ],
-            [
-                'id'    => 21,
-                'title' => 'footer_delete',
-            ],
-            [
-                'id'    => 22,
-                'title' => 'footer_access',
-            ],
-            
-            [
-                'id'    => 23,
                 'title' => 'membership_access',
             ],
             [
-                'id'    => 24,
+                'id'    => 18,
                 'title' => 'customer_create',
             ],
             [
-                'id'    => 25,
+                'id'    => 19,
                 'title' => 'customer_edit',
             ],
             [
-                'id'    => 26,
+                'id'    => 20,
                 'title' => 'customer_show',
             ],
             [
-                'id'    => 27,
+                'id'    => 21,
                 'title' => 'customer_delete',
             ],
             [
-                'id'    => 28,
+                'id'    => 22,
                 'title' => 'customer_access',
             ],
             [
-                'id'    => 29,
+                'id'    => 23,
                 'title' => 'profile_password_edit',
             ],
             

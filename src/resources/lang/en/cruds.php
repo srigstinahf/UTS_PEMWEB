@@ -65,38 +65,6 @@ return [
             'deleted_at_helper'        => ' ',
         ],
     ],
-    'frontend' => [
-        'title'          => 'Frontend',
-        'title_singular' => 'Frontend',
-    ],
-
-    'footer' => [
-        'title'          => 'Footer',
-        'title_singular' => 'Footer',
-        'fields'         => [
-            'id'                => 'ID',
-            'id_helper'         => ' ',
-            'logo'              => 'Logo',
-            'logo_helper'       => ' ',
-            'detail'            => 'Detail',
-            'detail_helper'     => ' ',
-            'alamat'            => 'Alamat',
-            'alamat_helper'     => ' ',
-            'phone'             => 'Phone',
-            'phone_helper'      => ' ',
-            'faximile'          => 'Faximile',
-            'faximile_helper'   => ' ',
-            'email'             => 'Email',
-            'email_helper'      => ' ',
-            'created_at'        => 'Created at',
-            'created_at_helper' => ' ',
-            'updated_at'        => 'Updated at',
-            'updated_at_helper' => ' ',
-            'deleted_at'        => 'Deleted at',
-            'deleted_at_helper' => ' ',
-        ],
-    ],
-    
     'membership' => [
         'title'          => 'Membership',
         'title_singular' => 'Membership',
